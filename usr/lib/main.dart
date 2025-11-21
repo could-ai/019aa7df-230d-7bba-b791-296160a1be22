@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:languamie/core/language_provider.dart';
 import 'package:languamie/core/theme.dart';
+import 'features/home/home_screen.dart';
+import 'features/auth/role_selection_screen.dart';
+import 'features/payment/payment_screen.dart';
 
 void main() {
   runApp(
@@ -45,8 +48,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// Placeholder imports to avoid errors before files are created
-import 'features/home/home_screen.dart';
-import 'features/auth/role_selection_screen.dart';
-import 'features/payment/payment_screen.dart';
